@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IRONCORE — Фітнес-зал</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-logo">IRONCORE</div>
+  <ul class="nav-links">
+    <li><a href="#services">Послуги</a></li>
+    <li><a href="#pricing">Ціни</a></li>
+    <li><a href="#trainers">Тренери</a></li>
+    <li><a href="#schedule">Розклад</a></li>
+    <li><a href="#contact">Контакти</a></li>
+  </ul>
+  <a href="#contact" class="nav-cta">Записатись</a>
+  <div class="burger" id="burgerBtn">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="menu-backdrop" id="menuBackdrop"></div>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#services" class="mobile-link">Послуги</a>
+  <a href="#pricing" class="mobile-link">Ціни</a>
+  <a href="#trainers" class="mobile-link">Тренери</a>
+  <a href="#schedule" class="mobile-link">Розклад</a>
+  <a href="#contact" class="mobile-link">Контакти</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-accent-circle"></div>
+  <div class="hero-content">
+    <div class="hero-tag">🏋️ Фітнес-зал у Києві</div>
+    <h1>ЗАЛІЗНА<span>ВОЛЯ</span></h1>
+    <p class="hero-sub">Ми не продаємо абонементи — ми будуємо характер. Тренуйся з найкращими, досягай неможливого.</p>
+    <div class="hero-btns">
+      <a href="#contact" class="btn-primary">Спробувати безкоштовно</a>
+      <a href="#pricing" class="btn-outline">Переглянути ціни</a>
+    </div>
+    <div class="hero-stats">
+      <div>
+        <div class="stat-num" data-target="1200">0</div>
+        <div class="stat-label">Учасників</div>
+      </div>
+      <div>
+        <div class="stat-num" data-target="15">0</div>
+        <div class="stat-label">Тренерів</div>
+      </div>
+      <div>
+        <div class="stat-num" data-target="8">0</div>
+        <div class="stat-label">Років досвіду</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COUNTERS -->
+<div class="counter-section">
+  <div class="counters-grid">
+    <div class="counter-item">
+      <div class="counter-num" data-target="2400">0</div>
+      <div class="counter-label">Кв. метрів</div>
+    </div>
+    <div class="counter-item">
+      <div class="counter-num" data-target="120">0</div>
+      <div class="counter-label">Тренажерів</div>
+    </div>
+    <div class="counter-item">
+      <div class="counter-num" data-target="40">0</div>
+      <div class="counter-label">Груп. занять/тиж</div>
+    </div>
+    <div class="counter-item">
+      <div class="counter-num" data-target="98">0</div>
+      <div class="counter-label">% задоволених</div>
+    </div>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="section-tag">// Що ми пропонуємо</div>
+  <h2 class="section-title">НАШІ ПОСЛУГИ</h2>
+  <div class="services-grid reveal">
+    <div class="service-card">
+      <div class="service-icon">💪</div>
+      <div class="service-name">Силові тренування</div>
+      <p class="service-desc">Повноцінний зал з вільними вагами, штангами та тренажерами для набору м'язової маси та сили.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">🏃</div>
+      <div class="service-name">Кардіо-зона</div>
+      <p class="service-desc">Бігові доріжки, велотренажери, еліптики нового покоління з відстеженням серцевого ритму.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">🥊</div>
+      <div class="service-name">Бокс & MMA</div>
+      <p class="service-desc">Бойовий зал з рингом, мішками та досвідченими тренерами з бойових мистецтв.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">🧘</div>
+      <div class="service-name">Yoga & Stretch</div>
+      <p class="service-desc">Відновлення тіла та розуму. Заняття для всіх рівнів підготовки у просторій студії.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">🏊</div>
+      <div class="service-name">Басейн</div>
+      <p class="service-desc">25-метровий басейн з доріжками для спортивного плавання та аквааеробіки.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">👤</div>
+      <div class="service-name">Персональний тренер</div>
+      <p class="service-desc">Індивідуальна програма тренувань та харчування від сертифікованого тренера.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing">
+  <div class="section-tag">// Доступні плани</div>
+  <h2 class="section-title">ЦІНИ</h2>
+  <div class="pricing-grid reveal">
+    <div class="price-card">
+      <div class="price-name">Старт</div>
+      <div class="price-amount"><span>₴</span>799</div>
+      <div class="price-period">на місяць</div>
+      <ul class="price-features">
+        <li>Тренажерний зал</li>
+        <li>Кардіо-зона</li>
+        <li>Роздягальні та душові</li>
+        <li>Доступ у будні дні</li>
+      </ul>
+      <a href="#contact" class="btn-outline" style="width:100%;text-align:center;display:block">Обрати план</a>
+    </div>
+    <div class="price-card featured">
+      <div class="price-badge">Популярний</div>
+      <div class="price-name">Про</div>
+      <div class="price-amount"><span>₴</span>1299</div>
+      <div class="price-period">на місяць</div>
+      <ul class="price-features">
+        <li>Усе зі Старту</li>
+        <li>Групові заняття (всі)</li>
+        <li>Басейн</li>
+        <li>Доступ 24/7</li>
+        <li>1 консультація тренера</li>
+      </ul>
+      <a href="#contact" class="btn-primary" style="width:100%;text-align:center;display:block">Обрати план</a>
+    </div>
+    <div class="price-card">
+      <div class="price-name">Еліт</div>
+      <div class="price-amount"><span>₴</span>2499</div>
+      <div class="price-period">на місяць</div>
+      <ul class="price-features">
+        <li>Усе з Про</li>
+        <li>Персональний тренер (8 сес.)</li>
+        <li>Нутриціолог</li>
+        <li>VIP роздягальня</li>
+        <li>Гостьовий абонемент</li>
+      </ul>
+      <a href="#contact" class="btn-outline" style="width:100%;text-align:center;display:block">Обрати план</a>
+    </div>
+  </div>
+</section>
+
+<!-- TRAINERS -->
+<section id="trainers">
+  <div class="section-tag">// Наша команда</div>
+  <h2 class="section-title">ТРЕНЕРИ</h2>
+  <div class="trainers-grid reveal">
+    <div class="trainer-card">
+      <div class="trainer-avatar t1">🏋️</div>
+      <div class="trainer-info">
+        <div class="trainer-name">Олексій Марченко</div>
+        <div class="trainer-spec">Силові тренування</div>
+        <div class="trainer-exp">12 років досвіду · КМС з важкої атлетики</div>
+      </div>
+    </div>
+    <div class="trainer-card">
+      <div class="trainer-avatar t2">🥊</div>
+      <div class="trainer-info">
+        <div class="trainer-name">Дмитро Ковальчук</div>
+        <div class="trainer-spec">Бокс & MMA</div>
+        <div class="trainer-exp">8 років досвіду · Майстер спорту з боксу</div>
+      </div>
+    </div>
+    <div class="trainer-card">
+      <div class="trainer-avatar t3">🧘</div>
+      <div class="trainer-info">
+        <div class="trainer-name">Анна Петренко</div>
+        <div class="trainer-spec">Yoga & Stretch</div>
+        <div class="trainer-exp">7 років досвіду · Сертифікат RYT-200</div>
+      </div>
+    </div>
+    <div class="trainer-card">
+      <div class="trainer-avatar t4">🏃</div>
+      <div class="trainer-info">
+        <div class="trainer-name">Сергій Бондаренко</div>
+        <div class="trainer-spec">Кардіо & Функціональний</div>
+        <div class="trainer-exp">10 років досвіду · Марафонець</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SCHEDULE -->
+<section id="schedule">
+  <div class="section-tag">// Графік занять</div>
+  <h2 class="section-title">РОЗКЛАД</h2>
+  <div class="schedule-tabs">
+    <button class="tab-btn active" data-day="mon">Пн</button>
+    <button class="tab-btn" data-day="tue">Вт</button>
+    <button class="tab-btn" data-day="wed">Ср</button>
+    <button class="tab-btn" data-day="thu">Чт</button>
+    <button class="tab-btn" data-day="fri">Пт</button>
+    <button class="tab-btn" data-day="sat">Сб</button>
+    <button class="tab-btn" data-day="sun">Нд</button>
+  </div>
+  <div class="schedule-list" id="scheduleList"></div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-tag">// Зв'яжіться з нами</div>
+  <h2 class="section-title">ЗАПИСАТИСЬ</h2>
+  <div class="contact-wrapper">
+    <div class="contact-info reveal">
+      <div class="contact-detail">
+        <div class="contact-icon">📍</div>
+        <div>
+          <div class="contact-label">Адреса</div>
+          <div class="contact-value">вул. Спортивна, 14<br>Київ, 01023</div>
+        </div>
+      </div>
+      <div class="contact-detail">
+        <div class="contact-icon">🕐</div>
+        <div>
+          <div class="contact-label">Графік роботи</div>
+          <div class="contact-value">Пн–Пт: 06:00 – 23:00<br>Сб–Нд: 08:00 – 22:00</div>
+        </div>
+      </div>
+      <div class="contact-detail">
+        <div class="contact-icon">📞</div>
+        <div>
+          <div class="contact-label">Телефон</div>
+          <div class="contact-value">+380 44 123 45 67</div>
+        </div>
+      </div>
+      <div class="contact-detail">
+        <div class="contact-icon">✉️</div>
+        <div>
+          <div class="contact-label">Email</div>
+          <div class="contact-value">info@ironcore.ua</div>
+        </div>
+      </div>
+    </div>
+    <div class="contact-form reveal">
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">Ім'я</label>
+          <input type="text" class="form-input" id="fname" placeholder="Іван"/>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Прізвище</label>
+          <input type="text" class="form-input" id="lname" placeholder="Петренко"/>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Телефон</label>
+        <input type="tel" class="form-input" id="phone" placeholder="+380 XX XXX XX XX"/>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Послуга</label>
+        <select class="form-input form-select" id="service">
+          <option value="">Оберіть послугу...</option>
+          <option>Тренажерний зал</option>
+          <option>Персональний тренер</option>
+          <option>Групові заняття</option>
+          <option>Бокс & MMA</option>
+          <option>Yoga & Stretch</option>
+          <option>Пробне тренування</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Повідомлення</label>
+        <input type="text" class="form-input" id="message" placeholder="Ваше запитання або побажання..."/>
+      </div>
+      <div class="form-success" id="formSuccess">✓ Дякуємо! Ми зв'яжемося з вами найближчим часом.</div>
+      <button class="btn-primary" id="submitBtn" style="border:none;width:100%;font-size:0.9rem;padding:1.1rem" onclick="handleSubmit()">
+        Надіслати заявку →
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">IRONCORE</div>
+  <div class="footer-copy">© 2024 IronCore Fitness. Всі права захищені.</div>
+  <div class="footer-links">
+    <a href="#home">Головна</a>
+    <a href="#services">Послуги</a>
+    <a href="#contact">Контакти</a>
+  </div>
+</footer>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal()">✕</button>
+    <div class="modal-title">ПРОБНЕ ТРЕНУВАННЯ</div>
+    <p style="color:var(--gray);font-size:0.85rem;margin-bottom:2rem;line-height:1.7">Запишіться на безкоштовне пробне тренування і відчуйте різницю вже сьогодні.</p>
+    <div class="contact-form" style="gap:0.8rem">
+      <input type="text" class="form-input" placeholder="Ваше ім'я"/>
+      <input type="tel" class="form-input" placeholder="Телефон"/>
+      <button class="btn-primary" style="border:none;width:100%" onclick="closeModal()">Записатись безкоштовно</button>
+    </div>
+  </div>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
